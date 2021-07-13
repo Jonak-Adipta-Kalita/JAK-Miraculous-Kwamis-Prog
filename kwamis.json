@@ -1,0 +1,156 @@
+{
+	"kwamis": [
+		{
+			"id": 0,
+			"name": "Tikki",
+			"image": "tikki.png",
+			"owner": ["Marinette Dupain-Cheng"],
+			"holder": "Ear Rings",
+			"miraculous": "Ladybug Miraculous"
+		},
+		{
+			"id": 1,
+			"name": "Plagg",
+			"image": "plagg.png",
+			"owner": ["Adrien Agreste"],
+			"holder": "Finger Ring",
+			"miraculous": "Cat Miraculous"
+		},
+		{
+			"id": 2,
+			"name": "Nooroo",
+			"image": "nooroo.png",
+			"owner": ["Gabriel Agreste"],
+			"holder": "Brooch",
+			"miraculous": "Butterfly Miraculous"
+		},
+		{
+			"id": 3,
+			"name": "Wayzz",
+			"image": "wayzz.png",
+			"owner": ["Nino Lahiffe", "Master Fu"],
+			"holder": "Bracelet",
+			"miraculous": "Turtle Miraculous"
+		},
+		{
+			"id": 4,
+			"name": "Trixx",
+			"image": "trixx.png",
+			"owner": ["Alya Césaire"],
+			"holder": "necklace",
+			"miraculous": "Fox Miraculous"
+		},
+		{
+			"id": 5,
+			"name": "Pollen",
+			"image": "pollen.png",
+			"owner": ["Zoé Lee", "Chloé Bourgeois"],
+			"holder": "comb",
+			"miraculous": "Bee Miraculous"
+		},
+		{
+			"id": 6,
+			"name": "Duusu",
+			"image": "duusu.png",
+			"owner": ["Gabriel Agreste", "Nathalie Sancoeur", "Emilie Agreste"],
+			"holder": "Brooch",
+			"miraculous": "Peacock Miraculous"
+		},
+		{
+			"id": 7,
+			"name": "Sass",
+			"image": "sass.png",
+			"owner": ["Luka Couffaine"],
+			"holder": "Ouroboros Bracelet",
+			"miraculous": "Snake Miraculous"
+		},
+		{
+			"id": 7,
+			"name": "Mullo",
+			"image": "mullo.png",
+			"owner": ["Mylène Haprèle"],
+			"holder": "Pendant Necklace",
+			"miraculous": "Mouse Miraculous"
+		},
+		{
+			"id": 8,
+			"name": "Longg",
+			"image": "longg.png",
+			"owner": ["Kagami Tsurugi"],
+			"holder": "Choker",
+			"miraculous": "Dragon Miraculous"
+		},
+		{
+			"id": 9,
+			"name": "Ziggy",
+			"image": "ziggy.png",
+			"owner": [null],
+			"holder": "Hair Clip",
+			"miraculous": "Goat Miraculous"
+		},
+		{
+			"id": 10,
+			"name": "Xuppu",
+			"image": "xuppu.png",
+			"owner": ["Lê Chiên Kim"],
+			"holder": "Circlet",
+			"miraculous": "Monkey Miraculous"
+		},
+		{
+			"id": 11,
+			"name": "Daizzi",
+			"image": "daizzi.png",
+			"owner": ["Rose Lavillant"],
+			"holder": "Pearl Anklet",
+			"miraculous": "Pig Miraculous"
+		},
+		{
+			"id": 12,
+			"name": "Orikko",
+			"image": "orikko.png",
+			"owner": [null],
+			"holder": "Thumb Ring",
+			"miraculous": "Rooster Miraculous"
+		},
+		{
+			"id": 13,
+			"name": "Barkk",
+			"image": "barkk.png",
+			"owner": ["Sabrina Raincomprix"],
+			"holder": "Collar Necklace",
+			"miraculous": "Dog Miraculous"
+		},
+		{
+			"id": 14,
+			"name": "Stompp",
+			"image": "stompp.png",
+			"owner": ["Ivan Bruel"],
+			"holder": "Nose Ring",
+			"miraculous": "Ox Miraculous"
+		},
+		{
+			"id": 15,
+			"name": "Kaalki",
+			"image": "kaalki.png",
+			"owner": ["Max Kanté"],
+			"holder": "Glasses",
+			"miraculous": "Horse Miraculous"
+		},
+		{
+			"id": 16,
+			"name": "Roaar",
+			"image": "roaar.png",
+			"owner": ["Juleka Couffaine"],
+			"holder": "Panjas Bracelet",
+			"miraculous": "Tiger Miraculous"
+		},
+		{
+			"id": 17,
+			"name": "Liiri",
+			"image": "liiri.png",
+			"owner": ["Jessica Keynes"],
+			"holder": "Talon Pendant",
+			"miraculous": "Eagle Miraculous"
+		}
+	]
+}

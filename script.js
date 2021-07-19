@@ -39,7 +39,7 @@ const displayPopup = (kwamie, id) => {
 			<div class="card">
 				<img class="card-image" src="${image}" />
 				<h2 class="card-title">
-					${kwamie.kwamis[id].id}. ${kwamie.kwamis[id - 1].name}
+					${kwamie.kwamis[id - 1].id + 1}. ${kwamie.kwamis[id - 1].name}
 				</h2>
 				<p>
 				<small>Owner: </small>${owner}

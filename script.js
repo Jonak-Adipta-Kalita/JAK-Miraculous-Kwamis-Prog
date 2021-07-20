@@ -30,9 +30,18 @@ const selectKwami = async (id) => {
 	displayPopup(kwamie, id);
 };
 
-const displayPopup = (kwamie, id) => {
+const displayPopup = (kwamie, id) => {	
 	const image = `./images/${kwamie.kwamis[id - 1].image}`;
 	const owner = Array(kwamie.kwamis[id - 1].owner).map((own) => own.join(", "));
+	
+	let ownerHTMLString;
+	
+	if (kwamie.kwamis[id - 1].owner[0] === null) {
+		ownerHTMLString = ""
+	} else {
+		ownerHTMLString = `<small>Owner: </small>${owner}`
+	}
+
 	const htmlString = `
 		<div class="popup">
 			<button id="closeBtn" onclick="closePopup()">Close</button>
@@ -41,9 +50,7 @@ const displayPopup = (kwamie, id) => {
 				<h2 class="card-title">
 					${kwamie.kwamis[id - 1].id + 1}. ${kwamie.kwamis[id - 1].name}
 				</h2>
-				<p>
-				<small>Owner: </small>${owner}
-				</p>
+				<p>${ownerHTMLString}</p>
 				<p>
 					<small>Holder: </small>${kwamie.kwamis[id - 1].holder} | 
 					<small>Miraculous: </small>${kwamie.kwamis[id - 1].miraculous}

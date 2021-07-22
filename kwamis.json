@@ -36,7 +36,7 @@
 			"id": 4,
 			"name": "Trixx",
 			"image": "trixx.png",
-			"owner": ["Alya Césaire"],
+			"owner": ["Alya Césaire", "Marinette Dupain-Cheng"],
 			"holder": "necklace",
 			"miraculous": "Fox Miraculous"
 		},
@@ -68,7 +68,7 @@
 			"id": 8,
 			"name": "Mullo",
 			"image": "mullo.png",
-			"owner": ["Mylène Haprèle"],
+			"owner": ["Mylène Haprèle", "Marinette Dupain-Cheng"],
 			"holder": "Pendant Necklace",
 			"miraculous": "Mouse Miraculous"
 		},

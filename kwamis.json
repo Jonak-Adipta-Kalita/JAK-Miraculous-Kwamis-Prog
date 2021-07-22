@@ -44,7 +44,7 @@
 			"id": 5,
 			"name": "Pollen",
 			"image": "pollen.png",
-			"owner": ["Zoé Lee", "Chloé Bourgeois"],
+			"owner": ["Zoé Lee", "Chloé Bourgeois", "Marinette Dupain-Cheng"],
 			"holder": "comb",
 			"miraculous": "Bee Miraculous"
 		},
@@ -132,7 +132,7 @@
 			"id": 16,
 			"name": "Kaalki",
 			"image": "kaalki.png",
-			"owner": ["Max Kanté"],
+			"owner": ["Max Kanté", "Marinette Dupain-Cheng"],
 			"holder": "Glasses",
 			"miraculous": "Horse Miraculous"
 		},

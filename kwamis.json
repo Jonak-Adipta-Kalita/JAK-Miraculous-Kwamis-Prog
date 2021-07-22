@@ -4,7 +4,7 @@
 			"id": 0,
 			"name": "Tikki",
 			"image": "tikki.png",
-			"owner": ["Marinette Dupain-Cheng"],
+			"owner": ["Marinette Dupain-Cheng", "Adrien Agreste"],
 			"holder": "Ear Rings",
 			"miraculous": "Ladybug Miraculous"
 		},
@@ -12,7 +12,7 @@
 			"id": 1,
 			"name": "Plagg",
 			"image": "plagg.png",
-			"owner": ["Adrien Agreste"],
+			"owner": ["Adrien Agreste", "Marinette Dupain-Cheng"],
 			"holder": "Finger Ring",
 			"miraculous": "Cat Miraculous"
 		},

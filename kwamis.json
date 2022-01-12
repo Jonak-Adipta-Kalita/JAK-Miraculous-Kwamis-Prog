@@ -12,7 +12,7 @@
 			"id": 1,
 			"name": "Plagg",
 			"image": "plagg.png",
-			"owner": ["Adrien Agreste", "Marinette Dupain-Cheng"],
+			"owner": ["Adrien Agreste", "Marinette Dupain-Cheng", "Gabriel Agreste"],
 			"holder": "Finger Ring",
 			"miraculous": "Cat Miraculous"
 		},

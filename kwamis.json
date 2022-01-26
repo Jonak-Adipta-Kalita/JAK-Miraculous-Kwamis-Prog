@@ -84,7 +84,7 @@
 			"id": 10,
 			"name": "Ziggy",
 			"image": "ziggy.png",
-			"owner": [null],
+			"owner": ["Nathaniel Kurtzberg"],
 			"holder": "Hair Clip",
 			"miraculous": "Goat Miraculous"
 		},
@@ -108,7 +108,7 @@
 			"id": 13,
 			"name": "Orikko",
 			"image": "orikko.png",
-			"owner": [null],
+			"owner": ["Marc Anciel"],
 			"holder": "Thumb Ring",
 			"miraculous": "Rooster Miraculous"
 		},

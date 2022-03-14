@@ -1,13 +1,18 @@
 const dex = document.getElementById('dex');
 const fetchKwamis = async () => {
-    const url = "/kwamis.json";
-	const res = await fetch(url);
+    const res = await fetch("https://jak_api.p.rapidapi.com/miraculous", {
+		"method": "GET",
+		"headers": {
+			"x-rapidapi-host": "jak_api.p.rapidapi.com",
+			"x-rapidapi-key": "d3474315fcmshe6f03eb826f16bcp181f82jsn7d262d2601be"
+		}
+	});
 	const data = await res.json();
 	console.log(data);
 	const kwamis = data.kwamis.map((result, index) => ({
 		...result,
 		id: index + 1,
-		image: `./images/${result.image}`
+		image: `https://jak-api.vercel.app/${result.image}`
 	}));
 	displayKwamis(kwamis);
 };
@@ -24,14 +29,19 @@ const displayKwamis = (kwami) => {
 };
 
 const selectKwami = async (id) => {
-	const url = `\kwamis.json`;
-	const res = await fetch(url);
+	const res = await fetch("https://jak_api.p.rapidapi.com/miraculous", {
+		"method": "GET",
+		"headers": {
+			"x-rapidapi-host": "jak_api.p.rapidapi.com",
+			"x-rapidapi-key": "d3474315fcmshe6f03eb826f16bcp181f82jsn7d262d2601be"
+		}
+	});
 	const kwamie = await res.json();
 	displayPopup(kwamie, id);
 };
 
 const displayPopup = (kwamie, id) => {	
-	const image = `./images/${kwamie.kwamis[id - 1].image}`;
+	const image = `https://jak-api.vercel.app/${kwamie.kwamis[id - 1].image}`;
 	const owner = Array(kwamie.kwamis[id - 1].owner).map((own) => own.join(", "));
 	
 	let ownerHTMLString;
